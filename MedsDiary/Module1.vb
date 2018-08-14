@@ -3,7 +3,7 @@ Imports System.IO
 Module Module1
 
     'OleDb = conexão de banco de dados
-    Public ConnectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;" & Directory.GetCurrentDirectory & "\RemediosTela3.accdb;User Id=admin;Password=;"
+    Public ConnectionString As String = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = {Directory.GetCurrentDirectory}\RemediosTela3.accdb;Persist Security Info=False;"
     Public sql As String
     Public mySql As String
     Public myDr As OleDbDataReader

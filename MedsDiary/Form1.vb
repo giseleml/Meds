@@ -8,7 +8,7 @@ Public Class Form1
         'acessar senha/usuario do banco de dados
 
 
-        sql = " SELECT * From Usuarios Where Usuário = '" & txtUser1.Text & "' And Senha='" & txtPass.Text & "'"
+        sql = $" SELECT * From Usuarios Where Usuário = '{txtUser1.Text}' And Senha = '{txtPass.Text}'"
 
 
 
